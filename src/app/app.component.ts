@@ -6,11 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  nbNaissance: number;
-  nbMort: number;
-
+  public nom: string;
+  public nombre: number;
+  public pourcents: number;
   constructor() {
-    this.nbNaissance = 35;
-    this.nbMort = 70;
+    this.nom = 'mort';
+    this.nombre = 70;
+    this.pourcents = 50;
   }
 }
+
+export class Statistique {}
