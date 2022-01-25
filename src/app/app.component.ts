@@ -15,5 +15,3 @@ export class AppComponent {
     this.pourcents = 50;
   }
 }
-
-export class Statistique {}
